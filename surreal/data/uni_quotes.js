@@ -32,7 +32,7 @@ export const uniQuotes = {
 
         `The movies Ocean\'s Eleven and 
         Conquest of the Planet of the Apes
-        were filmed on UCI campus in 2001.`,
+        were filmed on UCI campus.`,
 
         `The Ayala Science Library on UCI campus
         is modeled after the USS Enterprise
