@@ -8,7 +8,7 @@ import https from 'https';
  * @param {*} code 
  * @returns response from the lambda function
  */
-export const sendCollegeVerificationEmail = (email, code) => {
+export function sendCollegeVerificationEmail(email, code) {
     return new Promise((resolve, _) => {
 
         const options = {
@@ -25,7 +25,7 @@ export const sendCollegeVerificationEmail = (email, code) => {
     });
 }
 
-export const addUserToCollege = (userId, college) => {
+export function addUserToCollege(userId, college) {
     return new Promise((resolve, _) => {
         const options = {
             hostname: process.env.ADD_USER_TO_COLLEGE_LAMBDA_URL,

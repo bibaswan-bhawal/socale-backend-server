@@ -31,12 +31,8 @@ export function authenticateAccessToken(req, res, next) {
     }
 
     // Verify jwt
-    jwt.verify(token, getKey, function (err, payload) {
-        if (err) {
-            return res.sendStatus(401);
-        }
-
-        req.user = payload;
+    jwt.verify(token, getKey, function (err, _) {
+        if (err) return res.sendStatus(401);
         next();
     });
 }

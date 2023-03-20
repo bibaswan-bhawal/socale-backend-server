@@ -5,8 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "prod": "node src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "Bibaswan Bhawal",
   "license": "ISC",
