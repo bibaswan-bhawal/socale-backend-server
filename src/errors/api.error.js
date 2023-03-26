@@ -26,3 +26,5 @@ class APIError extends Error {
         return new APIError(message, httpStatus.BAD_REQUEST, true);
     }
 }
+
+export default APIError;
