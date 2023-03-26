@@ -2,7 +2,16 @@ import jwt from 'jsonwebtoken';
 import jwks from 'jwks-rsa';
 import ms from 'ms';
 
-export function authenticateAccessToken(req, res, next) {
+/**
+ * Authenticate cognito jwt access token
+ * 
+ * @param {Request} req
+ * @param {Response} res
+ * @param {Function} next
+ * @returns {Response} 401 if token is invalid
+ */
+
+function authenticateAccessToken(req, res, next) {
     const authHeader = req.headers['authorization'];
     const token = authHeader && authHeader.split(' ')[1];
 
@@ -36,3 +45,5 @@ export function authenticateAccessToken(req, res, next) {
         next();
     });
 }
+
+export default authenticateAccessToken;
