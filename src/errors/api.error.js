@@ -19,6 +19,7 @@ class APIError extends Error {
     }
 
     static notFound(message) {
+        console.log(message);
         return new APIError(message, httpStatus.NOT_FOUND, true);
     }
 

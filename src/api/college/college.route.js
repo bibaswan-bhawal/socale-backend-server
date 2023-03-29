@@ -3,7 +3,10 @@ import { getCollegeDataByEmail, getMinors, getMajors } from './college.controlle
 
 const router = express.Router();
 
-router.get('college/byEmail', getCollegeDataByEmail);
+/**
+ * @api {get} /api/college/byEmail
+ */
+router.get('/college/byEmail', getCollegeDataByEmail);
 
 router.get('/:collegeId/minors', getMinors);
 

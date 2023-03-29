@@ -1,9 +1,8 @@
-import dotenv from 'dotenv';
+
 import app from './config/express.js';
 
 import { connectSurrealDB } from './database/surreal.js';
 
-dotenv.config();
 
 const port = 3000;
 

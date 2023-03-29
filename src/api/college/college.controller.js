@@ -31,14 +31,24 @@ export async function getCollegeDataByEmail(req, res) {
          */
 
         if (response[0]['result'].length > 1) return res.sendStatus(412); // 412: Precondition Failed
+        if (response[0]['result'].length == 0) return res.sendStatus(404); // 404: Not Found
 
-        const college = response[0]['result'][0];
+        const college = {
+            id: response[0]['result'][0]['id'],
+            name: response[0]['result'][0]['name'],
+            profile_url: response[0]['result'][0]['profile_url'],
+            short_name: response[0]['result'][0]['short_name'],
+            community_name: response[0]['result'][0]['community_name'],
+            email_extension: response[0]['result'][0]['email_extension'],
+            fun_fact: response[0]['result'][0]['fun_facts'][Math.floor(Math.random() * response[0]['result'][0]['fun_facts'].length)]
+        }
 
         res.json(college);
     } catch (e) {
         console.error('ERROR', e);
         res.sendStatus(500);
     }
+
     console.timeEnd('API - getCollegeByEmail');
 }
 

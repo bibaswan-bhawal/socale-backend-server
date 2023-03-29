@@ -1,3 +1,5 @@
+import Surreal from 'surrealdb.js';
+
 import { verifyCollegeEmailLambda } from '../../lambda/verifyCollegeEmail.lambda.js';
 import { addUserToCollegeLambda } from '../../lambda/addUserToCollege.lambda.js';
 
@@ -53,14 +55,52 @@ export async function addUserToCollege(req, res) {
     console.timeEnd('API - addUserToCollege');
 }
 
-export async function generateNewUsername(req, res) {
-    // Generate a random username using adjective and animal names
+export async function generateProfile(req, res) {
+    console.time('API - generateProfile');
+    const { collegeId } = req.query; // get college id from url
+
+    try {
+        const username = await generateUsername(); // generate username
+        const avatar = await generateAvatar(collegeId); // generate avatar
+
+        res.json({ username, avatar }); // send username and avatar to client
+    } catch (e) {
+        console.error('ERROR', e);
+        res.sendStatus(500);
+    }
+
+    console.timeEnd('API - generateProfile');
 }
 
-export async function generateNewAvatar(req, res) {
-    // Generate a random avatar using the avatar generator API
+
+async function generateUsername() {
+    await Surreal.Instance.use(process.env.SURREALDB_NAMESPACE, process.env.SURREALDB_MAIN_DB);
+
+    const response = await Surreal.Instance.query("SELECT * FROM configs:usernames");
+
+    const adjectives = response[0]['result'][0]['adjectives'];
+    const nouns = response[0]['result'][0]['nouns'];
+
+    let adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
+    let noun = nouns[Math.floor(Math.random() * nouns.length)];
+
+    adjective = adjective.charAt(0).toUpperCase() + adjective.slice(1);
+    noun = noun.charAt(0).toUpperCase() + noun.slice(1);
+
+    return `${adjective} ${noun}`;
 }
 
-export async function createNewUser(req, res) {
-    // Create a new user in the database
+async function generateAvatar(collegeId) {
+
+    await Surreal.Instance.use(process.env.SURREALDB_NAMESPACE, process.env.SURREALDB_MAIN_DB);
+
+    const response = await Surreal.Instance.query(`SELECT avatars FROM ${collegeId}`);
+
+    const avatar = response[0]['result'][0]['avatars'][Math.floor(Math.random() * response[0]['result'][0]['avatars'].length)];
+
+    return avatar;
+}
+
+export async function createNewUser(_, res) {
+    res.sendStatus(200);
 }
