@@ -1,5 +1,14 @@
 import Surreal from 'surrealdb.js';
 
+/**
+ * @api {get} /api/general/languages
+ * @apiName GetLanguages
+ * @apiDescription Get a list of all languages
+ * @apiVersion 1.0.0
+ * 
+ * @apiSuccess {Object[]} languages List of languages.
+\ * @apiSuccess {[string]} languages.name Language name.
+ */
 export async function getLanguages(req, res) {
     console.time('API - getLanguages');
 
