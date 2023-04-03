@@ -5,9 +5,8 @@ import generalRoute from './api/general/general.route.js';
 
 const router = express.Router();
 
-
-router.use('/colleges', collegeRoute);
 router.use('/user', userRoute);
+router.use('/colleges', collegeRoute);
 router.use('/general', generalRoute);
 
 export default router;
