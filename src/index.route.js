@@ -7,6 +7,6 @@ const router = express.Router();
 
 router.use('/user', userRoute);
 router.use('/colleges', collegeRoute);
-router.use('/general', generalRoute);
+router.use('/app', generalRoute);
 
 export default router;
