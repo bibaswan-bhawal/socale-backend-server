@@ -1,63 +1,63 @@
 export const clubs_list = [
     {
         'name': '4N01 Dance Team',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'A Lutheran Ministry Social (ALMS)',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Academic Enrichment for Relocated Students (AERS)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Academy of Managed Care Pharmacy (AMCP at UC San Diego)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Acamazing',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'ACM AI',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'ACM Cyber',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Active Minds',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Acts 2 Fellowship',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Aequora Ballet Company',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Affordable Medication Initiative',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Afghan Student Association (ASA)',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Ahlul-Bayt Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'AI Student Collective @ UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'All Peoples @UC San Diego',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Alpha Chi Omega',
@@ -105,143 +105,143 @@ export const clubs_list = [
     },
     {
         'name': 'Alpine Club at UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Alter Ego Dance',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Alzheimer\'s Foundation of America on Campus',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Amateur Radio Club at UC San Diego (KK6UC)',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'American Chemical Society Student Affiliates (ACSSA)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'American Institute of Aeronautics and Astronautics',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'American Institute of Chemical Engineers (AIChE)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'American Medical Student Association',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'American Medical Women\'s Association',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'American Mock World Health Organization at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'American Pharmacists Association APhA-ASP at UC San Diego SSPPS',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Animal Welfare Association',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Anime & Manga Enthusiasts at UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Anthropology Club at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Antifragile Zine',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Architecture at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Armenian Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Asayake Taiko',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Ascension Competitive Dance Team',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Asian American Christian Fellowship',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Asian Americans Advocacy',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Asian and Pacific Islander Student Alliance (APSA)',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Asians & Pacific Islanders for the Arts and Humanities (APIAH)',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'ASL Club',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Association for Computing Machinery (ACM)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Association for Women in Math (UG)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Association for Women in Mathematics',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Association of Student Pharmacists at UCSD Skaggs School of Pharmacy',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Badminton Club at UC San Diego',
-        'type': ''
+        'type': 'Athletic'
     },
     {
         'name': 'Baha\'i Club at UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Ballet Folklorico la Joya de Mexico',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Bangali Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Basic Life Support Program at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
-        'name': 'Beat @ UC San Diego, The',
-        'type': ''
+        'name': 'The Beat @ UC San Diego',
+        'type': 'Arts'
     },
     {
         'name': 'Beautiful Mind Project @ UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Beta Alpha Psi',
@@ -253,151 +253,151 @@ export const clubs_list = [
     },
     {
         'name': 'Bhagat Puran Singh Health Initiative at UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Big Brain Energy Club',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Bioengineering Graduate Society',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Biological Sciences Student Association',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Biology Undergraduate and Master\'s Mentorship Program',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Biomedical Engineering Society (BMES)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Biomedical Sciences Graduate Program',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'BioScholars Program at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Black Student Union',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Blockchain at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
-        'name': 'Brain Exercise Initiative, The',
-        'type': ''
+        'name': 'The Brain Exercise Initiative',
+        'type': 'Academic'
     },
     {
         'name': 'Break the Trend',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Breakin\' Club- Body Rock',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Breaking Barriers',
-        'type': ''
+        'type': 'activism'
     },
     {
         'name': 'Breaking Bread',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Business Council',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'California Public Interest Research Group @ UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'California Society of Health-System Pharmacists- at UC San Diego Student Chapter',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Cambodian Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Camp Kesem',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Campus Crusade for Christ',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Campus Outreach at UC San Diego',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Cancer Outreach Team',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'CannaClub at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Care2Share at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Casa de Culturas',
-        'type': ''
+        'type': 'Culture'
     },
     {
         'name': 'CASAs for Kids',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Catholic Community - Newman Center Parish',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Catholics for Social Justice',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Chabad Graduate Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Challenger Research Journal at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Chancellor\'s Scholars Alliance',
-        'type': ''
+        'type': 'Academic'
     },
     { 
         'name':'Che Cafe',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Cheese Club',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Chem-E-Car Project',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Chemistry International Friendship Group',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Chess Club at UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Chi Delta Theta',
@@ -409,159 +409,159 @@ export const clubs_list = [
     },
     {
         'name': 'Chinese American Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Chinese Business Society at UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Chinese Computer Community',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Chinese Dance Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Chinese Drama Club',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Chinese Engineering Society',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Chinese Global Community',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Chinese Students and Scholars Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Chinese Union',
-        'type': ''
+        'type': 'Cultural'
     },
     {
-        'name': 'Chinese Women Post, The',
-        'type': ''
+        'name': 'The Chinese Women Post',
+        'type': 'Cultural'
     },
     {
         'name': 'Christian Life Community at UC San Diego',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Christian Pharmacists Fellowship International',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Christians at UC San Diego',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Circle K. International',
-        'type': ''
+        'type': 'Social'
     },
     {
-        'name': 'Climate Change Review, The',
-        'type': ''
+        'name': 'The Climate Change Review',
+        'type': 'Activism'
     },
     {
         'name': 'Climate Reality Campus Corps at University of California San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Climbing Team at UC San Diego',
-        'type': ''
+        'type': 'Athletic'
     },
     {
         'name': 'Club Golf at UC San Diego',
-        'type': ''
+        'type': 'Athletic'
     },
     {
         'name': 'Cognitive Science Student Association',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'College Democrats at UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'College Republicans at UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Colleges Against Cancer',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Collegiate Sales Society',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Comfort Tone',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Company 157',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'COMPASS',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Computer Science and Engineering Society',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Cooking Hub',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Cornerstone Community Consultants at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Costco Club',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Creative Writing Club',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Crochet for Kids',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'CS foreach',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Da Real Punjabiz',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Darkstar',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Data Science Student Society',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Daughters of Triton',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Deejays and Vinylphiles Club',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Deep Throttle Car Community @UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Delta Alpha Pi International Honor Society (DAPi)',
@@ -585,83 +585,83 @@ export const clubs_list = [
     },
     {
         'name': 'Design Co',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Design For America @ UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Design/Build/Fly',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Disabled United Student Community',
-        'type': ''
+        'type': 'Activism'
     },
     {
-        'name': 'Discord Server Initiative at UC San Diego, The',
-        'type': ''
+        'name': 'The Discord Server Initiative at UC San Diego',
+        'type': 'Social'
     },
     {
         'name': 'Diversity in Data Science',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Duly Noted',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Earthquake Engineering Research Institute (EERI)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'ECE Event Collaboration Board',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'ECE Undergraduate Student Council',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Ecology, Behavior and Evolution Club at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Education Studies Student Association (EDSSA)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Emergency Medical Services at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'En Route',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'End Overdose at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Engineering World Health',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Engineers for a Sustainable World',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Engineers Without Borders at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Envisionaries @ UC San Diego',
-        'type': ''
+        'type': 'Academics'
     },
     {
         'name': 'Eritrean & Ethiopian Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Eta Kappa Nu (HKN)',
@@ -673,63 +673,63 @@ export const clubs_list = [
     },
     {
         'name': 'Evangelical Chinese Christian Fellowship',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Exercise is Medicine at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Falun Dafa at UC San Diego',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Figure Skating @ UC San Diego',
-        'type': ''
+        'type': 'Athletic'
     },
     {
         'name': 'First Generation Student Alliance',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Five Millennia Orchestra',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Flying Sams at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Food Cooperative at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Free to Breathe: The Nicotine Exchange',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Frequency',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Fresh Wind Chinese Church Fellowship',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Fronteras Saludables (Healthier Borders)',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Fusheng Chinese Drama Troupe',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Fusion Dance Events Association',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Gamma Gamma Driver Yugioh',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Gamma Zeta Alpha Fraternity Inc',
@@ -737,283 +737,283 @@ export const clubs_list = [
     },
     {
         'name': 'Gender Minorities in Bioengineering',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Genetic Counseling Student Interest Group',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'GENup Collegiate at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Girl Gains at UC San Diego',
-        'type': ''
+        'type': 'Athletic'
     },
     {
         'name': 'GlamourGals at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Global Medical Brigades @ UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Global Medical Missions Alliance',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Glory Church Campus Fellowship',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Google Developer Student Club @ UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
-        'name': 'GoSTEM@UC San Diego',
-        'type': ''
+        'name': 'GoSTEM @UC San Diego',
+        'type': 'Academic'
     },
     {
         'name': 'Graduate Bioinformatics Council',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Graduate Christian Fellowship',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Graduate Society of NanoEngineers at UC San Diego, GSN',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Graduate Women in Computing',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Graphite',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Green New Deal at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Groundwork Books Collective',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Hailuo Mental Support (formerly CSMS)',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Hawai\'i Club',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Healing Hands at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Health and Anti-Recidivism Project (HAARP)',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Health and Medical Professions Preparation Program (HMP3)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Health Disparities Initiative',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Health Insurance Literacy Initiative',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Healthcare Professions Mentorship Programs',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Healthy Skin Initiative (HSI)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Hearth Fellowship',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Hearts For The Homeless San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Her Campus at UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Hermanas Unidas de UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Hermanos Unidos de UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Hidden Road Initiative',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Hiking Group at UC San Diego',
-        'type': ''
+        'type': 'Recreation'
     },
     {
         'name': 'Hindu YUVA',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Homeless Health and Empowerment Across Learning (Homeless HEAL)',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Hong Kong Student Union',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Hope Presbyterian Church',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'HOPE Worldwide Campus Club',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Hopkins Sax Jam',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Houselessness Service Club at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Human Development Student Association',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Human Powered Submarine',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Iaido at UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Indian Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Innovative Student Project Groups',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Insight Pre-Optometry',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Institute of Electrical and Electronics Engineers (IEEE)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Inter Varsity Christian Fellowship',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Inter-College Residents Association (ICRA)',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'InterCP International',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Interfraternity Council',
-        'type': ''
+        'type': 'Greek'
     },
     {
         'name': 'Intergenerational Connections',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Intermission Orchestra',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'International Family Union',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'International Graduate Student Ministry (IGSM) at UC San Diego',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'International Health Collective',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'International Society for Pharmaceutical Engineers (ISPE)',
-        'type': ''
+        'type': 'Academics'
     },
     {
         'name': 'International Student Mentorship Program (ISMP)',
-        'type': ''
+        'type': 'Academics'
     },
     {
         'name': 'International Studies Student Association (ISSA) at UC San Diego',
-        'type': ''
+        'type': 'Academics'
     },
     {
         'name': 'International Women\'s Health Organization (IWHO)',
-        'type': ''
+        'type': 'Academics'
     },
     {
         'name': 'Intersectional Health Project - San Diego',
-        'type': ''
+        'type': 'Academics'
     },
     {
         'name': 'Inter-Sustainability Council',
-        'type': ''
+        'type': 'Activism'
     },
     {
-        'name': 'Investors Club, The',
-        'type': ''
+        'name': 'The Investors Club',
+        'type': 'Social'
     },
     {
         'name': 'It\'s On Us at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'IUSM (International Undergraduate Student Ministry)',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Jacobs Graduate Student Council',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Japanese Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Jewish Graduate Students',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Kaibigang Pilipin@',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Kairos Christian Fellowship',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Kappa Alpha Pi',
@@ -1037,83 +1037,83 @@ export const clubs_list = [
     },
     {
         'name': 'Kendo Club at UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Keyboard Club at UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Kidz Next Door',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Klesis',
-        'type': ''
+        'type': 'Religious'
     },
     {
-        'name': 'Koala at UC San Diego, The',
-        'type': ''
+        'name': 'The Koala at UC San Diego',
+        'type': 'Recreational'
     },
     {
         'name': 'KOJOBS at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Kommon Society',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Korea Campus Crusade for Christ (KCCC)',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Korean American Scientists and Engineers Association - Young Generation',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Korean American Student Association (KASA)',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Korean Athletic Network (KAN)',
-        'type': ''
+        'type': 'Athletic'
     },
     {
         'name': 'Korean Graduate Student Association (KGSA)',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Korean Student Cultural Association (Ko.SCA)',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'KOTX',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Kristos Campus Missions',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'KRUSH',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'kunFusion',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'KUT Dance Team',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'La Familia de UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'La Jolla Shores Cleanup at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Lambda Chi Alpha',
@@ -1129,215 +1129,215 @@ export const clubs_list = [
     },
     {
         'name': 'Latinx Business Student Association',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'League of Tritons',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Lebanese Student Association at UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Letters of Love at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'LIFE Fellowship',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Life Science Club',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Lighthouse College Life',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'LikeLion',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Linguistics Undergraduate Association (LINGUA)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Lion Dance at UC San Diego',
-        'type': ''
+        'type': 'Arts'
     },
     {
-        'name': 'Lotus Project, The',
-        'type': ''
+        'name': 'The Lotus Project',
+        'type': 'Activism'
     },
     {
         'name': 'Lumnus Consulting Junior Enterprise',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'M.E.M.O. at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Magic TCG at UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Majiang at UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Mariachi La Joya del Sur',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Marksmanship Club at UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Marvel Club at UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Mathematics Graduate Student Council',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Maximalist Magazine',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'MEDLIFE at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Middle Eastern & North African Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Mindfulness & Meditation at UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Minority Association of Pre-Medical Students (MAPS)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Mishelanu at UCSD',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Mixed Student Union',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Mock Trial @ UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Model United Nations at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Moot Court at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Morning Sign Out at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Movimiento Estudiantil Chicanola de Aztlan (MECHA)',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Muir Musical',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Multi-Asian Student Association',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Multicultural Greek Council',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Multi-Identity Art Collective',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Muse Dance Company',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Music and Memory at UC San Diego',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Music, Meditation and Mindfulness (M3) @ UC San Diego',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Musicians Club @ UC San Diego',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Muslim Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
-        'name': 'Mustard Seed Project, The',
-        'type': ''
+        'name': 'The Mustard Seed Project',
+        'type': 'Activism'
     },
     {
         'name': 'NanoEngineering and Technology Society',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'National Residence Hall Honorary',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'National Society of Black Engineers at UC San Diego (NSBE)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'National Society of Leadership and Success',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Native American and Indigenous Student Alliance (NAISA) (Previously Native American Student Alliance)',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Navigators',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Neurodegenerative Disease Awareness Association (NDAA)',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Neuroengineering Journal Club @ UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'New Life Student Ministry',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'NFL Club',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Nigerian Student Association at UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Nikkei Student Union',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Nu Alpha Kappa, Inc.',
@@ -1345,87 +1345,91 @@ export const clubs_list = [
     },
     {
         'name': 'Okinawa Karate Do at UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Olami JHealth at UC San Diego',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'One for the World at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'operation twelve laboratories at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Operations and Supply Chain Club',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Orienteering at UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Origami Folders at UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'osu! At UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Other People Magazine',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'OTTA United @ UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Out in Science, Technology, Engineering, and Mathematics (oSTEM)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Oviparous',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Pacific Islander Student Association (PISA at UC San Diego)',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'PageOne',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Pakistani Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Panhellenic Association',
-        'type': ''
+        'type': 'Greek'
     },
     {
         'name': 'Paranormal Society',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Parents and Caregivers',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Partners In Health Engage at UC San Diego',
-        'type': ''
+        'type': 'Social'
+    },
+    {
+        'name': 'People of Color in Public Health'
+        'type': 'Academic'
     },
     {
         'name': 'Pepitos',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Persian American Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Phi Delta Epsilon',
@@ -1457,11 +1461,11 @@ export const clubs_list = [
     },
     {
         'name': 'Photography Club',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Photonics Society at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Pi Beta Phi',
@@ -1477,251 +1481,251 @@ export const clubs_list = [
     },
     {
         'name': 'Pickleball Club at UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Pilipinx Undergraduate Society for Health',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Pink Ribbon Initiative',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Planned Parenthood Generation Action at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Platypus Affiliated Society at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Polynesian Dance Club (Previously Hawaii Club)',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Pre-Dental Society @ UC San Diego & Student Run-Free Dental Clinic Project @ UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Pre-health Persians at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Pre-Medical APAMSA at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Pre-Meds Without Borders',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Pre-PA Student Organization (PPASO)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Pre-Pharmacy Society @ UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Pre-Vet Student Association',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Producers and Remixers Org at UC San Diego',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Product Space at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Project Happiness',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Project in a Box',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Project Pathways',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Project RISHI',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Prospect - The Journal of International Affairs at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Psi Chi/Psychology Club',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Psychedelic Club at UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Public Health Graduate Organization',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Public Health Undergraduate Organization at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Purple Breath',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Pushpanjali',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Quality of Life Plus Club (QL+)',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Quantum Computing at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Queer and Trans* People of Color (QT*POC) at UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Queer Graduate Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Queer@Scripps',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Quiz Bowl Club at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Raas Ruckus Dance Team at UC San Diego',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Rady Data Analytics Club',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Rady Finance Club',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Rady Product Management Club at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Rady Student Association',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Red Cross at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Redeemer\'s Grace Church on Campus at UC San Diego',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Redliners',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Robotic Graduate Student Organization (RoboGrads)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Rocket Propulsion Laboratory',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Role Playing Games Club',
-        'type': ''
+        'type': 'Sociak'
     },
     {
         'name': 'ROOT[D at UC San Diego',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Rotaract Club at UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'RSJ at UC San Diego',
-        'type': ''
+        'type': 'Religious'
     },
     {
-        'name': 'Rubi\'s Cube Club',
-        'type': ''
+        'name': 'Rubik\'s Cube Club',
+        'type': 'Recreational'
     },
     {
         'name': 'Salsa Society',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Saltman Quarterly',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'San Diego Indonesian Association (SDIA)',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'San Diego Jewish Experience',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'San Diego Tutoring Tree',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'SandDiego Volleyball Club',
-        'type': ''
+        'type': 'Athletic'
     },
     {
         'name': 'SangamSD',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Saudi Students Association @ UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Scholars Society at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Science Olympiad at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Scripps Education Association',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Scripps Student Symposium Committee',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Seashore Campus Fellowship',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Serotones',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Shaping Futures',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Sigma Alpha Mu Fraternity',
@@ -1753,159 +1757,159 @@ export const clubs_list = [
     },
     {
         'name': 'Sikh Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Singapore Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Sitaare',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Sleepless Collective',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Social Network',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Society for Latinos in Physical Science',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Society for Women in Graduate Studies in Chemistry and Biochemistry',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Society of Asian Scientists and Engineers at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Society of Automotive Engineers',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Society of Civil and Structural Engineers',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Society of Hispanic Professional Engineers',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Society of Physics Students at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Society of Undergraduate Mathematics Students (SUMS)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Society of Women Engineers (SWE)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'SPARK',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Speech and Debate at the University of California: San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Speech, Physical, Occupational Therapy (SPOT)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Squash Club',
-        'type': ''
+        'type': 'Athletic'
     },
     {
         'name': 'Sri Lankan Students Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Star Wars Club at UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Strides Running Club',
-        'type': ''
+        'type': 'Athletic'
     },
     {
         'name': 'StRIVE',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Student Cancer and Chronic Diseases Support Group',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Student Health Advocates',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Student Involvement Leadership Consultant (SILC)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Student Support Services Club (SSSC or SSS Club)',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Students for Global Health',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Students for Open Access',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Students for Sensible Drug Policy (SSDP)',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Students for the Exploration and Development of Space',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Students Vs Pandemics',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Sun God Archery at UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Surf Club',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Sustainable Investment Group',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Symphonic Student Association',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Taekwondo @ UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Taiwanese American Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Taiwanese Graduate Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'TamashaSD',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Tau Beta Pi',
@@ -1921,43 +1925,43 @@ export const clubs_list = [
     },
     {
         'name': 'Tea Club @ UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Team HBV',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Tech Club at UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Tech Venture Club @ UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'TEDx@UCSanDiego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Teo-Chew Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Thai Student Union',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'The General Store Co-op',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'The Thomistic Institute at UC San Diego',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Themed Entertainment Association @ UC San Diego',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Theta Tau at UC San Diego',
@@ -1965,334 +1969,342 @@ export const clubs_list = [
     },
     {
         'name': 'Transfers in Science',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Transracial Adoptee Tritons (TRA Tritons)',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Trash Pandas',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Treble Singers at UC San Diego, The',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Trend',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Triangle',
-        'type': ''
+        'type': 'Greek'
     },
     {
         'name': 'Triton A Cappella Community',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Triton Apex',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Triton Auto Club',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Triton Aviation',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Triton Barbell',
-        'type': ''
+        'type': 'Athletic'
     },
     {
         'name': 'Triton Brain Injury Network',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Triton Consulting Group',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Triton Counterstrike',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Triton Destiny',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Triton Engineering Student Council',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Triton Fighters',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Triton Foodie',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Triton Gaming',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Triton India Club',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Triton Jewish Leaders',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Triton Melee',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Triton NeuroTech',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Triton Philosophy Society @ UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Triton Photography Club',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Triton Pokémon League',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Triton Real Estate Organization',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Triton Robosub',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Triton Robotics',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Triton Smash',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Triton Software Engineering',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Triton Solar Car',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Triton Solar Decathlon',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Triton Spike', 
-        'type': ''
+        'type': 'Recreational'
     },
     { 
         'name': 'Triton Splatoon',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Triton Trading Post @ UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Triton Unmanned Aerial Systems',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'TritonCubed @ UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Tritones at UC San Diego',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Tritons Film Society',
-        'type': ''
+        'type': 'Arts'
     },
     {
         'name': 'Tritons For Israel',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Tritons in Recovery',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Tritons Roll Out',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'TritonThenix',
-        'type': ''
+        'type': 'Athletics'
     },
     {
         'name': 'TRUTH Club',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Turkish Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Turkish Undergrad Organization',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Turning Point USA at UC San Diego',
-        'type': ''
+        'type': 'Social'
     },
     {
         'name': 'Tzu Chi Collegiate Association at UC San Diego',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'uCHARM',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Undergraduate Bioinformatics Club (UBIC)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Undergraduate Communication Society',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Undergraduate Economics Society at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Undergraduate History Network',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Undergraduate Investment Society',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Undergraduate Law Review at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Undergraduate to PhD Economics Group (UPEG)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Undergraduate Women in Computing at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Underground Scholars Initiative',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'United Taiwanese Association at UC San Diego',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Venture Capital Finance and Innovation Club',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Video Game Development Club (VGDC) at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Vietnamese Student Association',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Voiz at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'We Care',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'We the Redeemed at UC San Diego',
-        'type': ''
+        'type': 'Religious'
     },
     {
         'name': 'Women and Minorities in Science',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Women in Business',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Women in ECE (WeCe)',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Women in Science Society at UC San Diego',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Women of MENA',
-        'type': ''
+        'type': 'Cultural'
     },
     {
         'name': 'Women of Rady Club',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Women\'s Club Basketball @ UC San Diego',
-        'type': ''
+        'type': 'Athletic'
     },
     {
         'name': 'Women\'s Empowerment at UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Words Uncaged @ UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Wushu club @ UC San Diego',
-        'type': ''
+        'type': 'Recreational'
+    },
+    {
+        'name': 'Y.E.S. - Youth Empowerment in Science'
+        'type': 'Academic'
     },
     {
         'name': 'YDSA @ UC San Diego',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Yoga Club at UC San Diego',
-        'type': ''
+        'type': 'Recreational'
     },
     {
         'name': 'Yonder Deep',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Yonder Dynamics',
-        'type': ''
+        'type': 'Academic'
     },
     {
         'name': 'Young Minds',
-        'type': ''
+        'type': 'Academic'
     },
     {
+        'name': 'Young Planners Society'
+        'type': 'Academic'
+    }
+    {
         'name': 'Youth Movement Against Alzheimers, The',
-        'type': ''
+        'type': 'Activism'
     },
     {
         'name': 'Zor at UC San Diego (Hindi Film) Dance Team',
-        'type': ''
+        'type': 'Arts'
     }
 ]
