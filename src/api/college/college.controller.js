@@ -53,7 +53,38 @@ export async function getCollegeDataByEmail(req, res) {
 }
 
 /**
- * @api {get} /api/:collegeId/minors
+ * @api {get} /api/colleges/:collegeId/clubs
+ * @apiName Get clubs
+ * @apiGroup College
+ * @apiDescription Get a list of all clubs for a college
+ * @apiVersion 1.0.0
+ * 
+ * @apiParam {String} collegeId - The college's id
+ */
+
+export async function getClubs(req, res) {
+    console.time('API - getClubs');
+
+    const { collegeId } = req.params; // get college id from url
+
+    const dbId = collegeId.split(':')[1]; // get college id from url
+
+    try {
+        await Surreal.Instance.use(process.env.SURREALDB_NAMESPACE, dbId);
+
+        const response = await Surreal.Instance.query('SELECT * FROM clubs');
+
+        res.json(response[0]['result']);
+    } catch (e) {
+        console.error('ERROR', e);
+        res.sendStatus(500);
+    }
+
+    console.timeEnd('API - getClubs');
+}
+
+/**
+ * @api {get} /api/colleges/:collegeId/minors
  * @apiName Get Minors
  * @apiGroup College
  * @apiDescription Get a list of all minors for a college
@@ -85,7 +116,7 @@ export async function getMinors(req, res) {
 }
 
 /**
- * @api {get} /api/:collegeId/majors
+ * @api {get} /api/colleges/:collegeId/majors
  * @apiName Get Majors
  * @apiGroup College
  * @apiDescription Get a list of all majors for a college
