@@ -2,6 +2,8 @@ import Surreal from 'surrealdb.js';
 
 import { verifyCollegeEmailLambda } from '../../lambda/verifyCollegeEmail.lambda.js';
 import { addUserToCollegeLambda } from '../../lambda/addUserToCollege.lambda.js';
+import { json } from 'express';
+import { koaJwtSecret } from 'jwks-rsa';
 
 /**
  * @api {get} /api/send_college_verify_email
@@ -101,6 +103,45 @@ async function generateAvatar(collegeId) {
     return avatar;
 }
 
-export async function createNewUser(_, res) {
-    res.sendStatus(200);
+
+export async function createNewUser(req, res) {
+    console.time('API - createNewUser');
+
+    const collegeId = req.headers['collegeid'].split(':')[1];
+    const { data } = req.body;
+
+    const newUser = JSON.parse(data);
+    try {
+        await Surreal.Instance.use(process.env.SURREALDB_NAMESPACE, collegeId);
+
+        let response = await Surreal.Instance.query(`
+            CREATE users CONTENT {
+                cognitoId: "${newUser.id}",
+                email: "${newUser.email}",
+                collegeEmail: "${newUser.collegeEmail}",
+                firstName: "${newUser.firstName}",
+                lastName: "${newUser.lastName}",
+                birthDate: "${newUser.birthDate}",
+                graduationDate: "${newUser.graduationDate}",
+                anonymousProfileImage: "${newUser.anonymousProfileImage}",
+                anonymousUsername: "${newUser.anonymousUsername}",
+                majors: [${newUser.majors.map(major => ` "${major}"`)} ],
+                minors: [${newUser.minors.map(minor => ` "${minor}"`)} ],
+                languages: [${newUser.languages.map(language => ` "${language}"`)} ],
+                interests: [${newUser.interests.map(interest => ` "${interest}"`)} ],
+                clubs: [${newUser.clubs.map(club => ` "${club}"`)} ]
+            }
+        `);
+
+        if (response[0]['status'] == 'OK') {
+            res.sendStatus(200);
+        } else {
+            throw (new Error(`DB Error: ${response[0]['time']} - ${response[0]['detail']}`));
+        }
+    } catch (e) {
+        console.error('ERROR', e);
+        res.sendStatus(500);
+    }
+
+    console.timeEnd('API - createNewUser');
 }

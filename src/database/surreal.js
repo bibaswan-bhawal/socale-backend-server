@@ -18,6 +18,8 @@ export async function connectSurrealDB() {
         attempts = 0;
 
         if (process.env.NODE_ENV == 'development') console.log('Connected to SurrealDB');
+
+        await Surreal.Instance.signin({ user: process.env.SURREALDB_USERNAME, pass: process.env.SURREALDB_PASSWORD });
     } catch (e) {
         console.error('ERROR', e);
         if (attempts < 5) {

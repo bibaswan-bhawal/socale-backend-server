@@ -10,6 +10,10 @@ dotenv.config();
 
 const app = express();
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.raw());
+
 app.get('/health', (_, res) => res.sendStatus(200)); // ecs health check
 
 if (process.env.NODE_ENV == 'production') {
